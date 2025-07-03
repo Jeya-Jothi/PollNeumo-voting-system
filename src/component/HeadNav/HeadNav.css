@@ -1,0 +1,36 @@
+.heading {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-head,
+.right-head {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.logo-img {
+  width: 80px;
+}
+.head-txt {
+  font-size: 30px;
+}
+.right-head p {
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 8px 8px 15px rgba(163, 177, 198, 0.484),
+    3px 3px 3px rgba(163, 177, 198, 0.659),
+    -2px -2px 5px rgba(255, 255, 255, 0.742),
+    -8px -8px 10px rgba(255, 255, 255, 0.368);
+  transition: box-shadow 0.3s;
+}
+.right-head p:hover {
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0),
+    0px 0px 0px rgba(255, 255, 255, 0), -0px -0px 0px rgba(255, 255, 255, 0),
+    -0px -0px 0px rgba(255, 255, 255, 0),
+    3px 3px 3px rgba(163, 177, 198, 0.659) inset,
+    -2px -2px 5px rgba(255, 255, 255, 0.742) inset;
+}
+.right-head p:active {
+  opacity: 0.7;
+}
