@@ -1,0 +1,23 @@
+.about-card {
+  margin: 0% 20%;
+  font-size: 18px;
+  padding: 30px 40px;
+}
+.feature-div {
+  display: flex;
+  gap: 20px;
+}
+.feature-div p {
+  font-size: 16px;
+}
+.about-txt {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+}
+.goal-txt {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}

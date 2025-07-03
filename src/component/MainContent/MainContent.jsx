@@ -1,4 +1,5 @@
 import "./MainContent.css";
+
 function MainContent() {
   return (
     <div className="container">
