@@ -18,16 +18,10 @@ function About() {
           </p>
         </div>
         <div className="feature-div">
-          <p className="card">
-            1. Intuitive voting experience with neumorphic buttons1
-          </p>
-          <p className="card">
-            2. Real-time percentage updates for each option
-          </p>
-          <p className="card">3. Clean, glassy card layout and soft shadows</p>
-          <p className="card">
-            4. Fully built with React and modern CSS styling
-          </p>
+          <p>1. Intuitive voting experience with neumorphic buttons1</p>
+          <p>2. Real-time percentage updates for each option</p>
+          <p>3. Clean, glassy card layout and soft shadows</p>
+          <p>4. Fully built with React and modern CSS styling</p>
         </div>
         <div>
           <p className="goal-txt">Goal</p>
