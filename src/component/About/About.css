@@ -26,8 +26,6 @@
   margin: 0px;
 }
 
-/* Mobile */
-
 @media (max-width: 1200px) {
   .about-card {
     font-size: 15px;
@@ -55,7 +53,7 @@
     font-size: 14px;
   }
 }
-
+/* Mobile */
 @media (max-width: 425px) {
   .about-card {
     margin: 0% 10%;
@@ -69,7 +67,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
-    column-gap: 10px;
+    column-gap: 20px;
   }
   .feature-div p {
     font-size: 12px;
