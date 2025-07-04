@@ -9,9 +9,12 @@
 }
 .feature-div p {
   font-size: 16px;
-  border: 2px solid #c9ced5;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(163, 177, 198, 0.6),
+    2px 2px 2px rgba(163, 177, 198, 0.659),
+    -1px -1px 5px rgba(255, 255, 255, 0.742),
+    -3px -3px 5px rgba(255, 255, 255, 0.641);
 }
 .about-txt {
   text-align: center;
@@ -70,11 +73,7 @@
     column-gap: 20px;
   }
   .feature-div p {
-    font-size: 10px;
-    box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6),
-      3px 3px 3px rgba(163, 177, 198, 0.659),
-      -1px -1px 5px rgba(255, 255, 255, 0.742),
-      -5px -5px 10px rgba(255, 255, 255, 0.641);
+    font-size: 12px;
   }
   .about-txt {
     font-size: 20px;
