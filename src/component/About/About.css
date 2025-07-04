@@ -64,11 +64,7 @@
     /* height: 70vh; */
   }
   .feature-div {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-    column-gap: 20px;
+    grid-template-columns: auto auto;
   }
   .feature-div p {
     font-size: 12px;
