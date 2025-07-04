@@ -1,71 +1,64 @@
 import "./Contact.css";
 import "../MainContent/MainContent.css";
-import { useState } from "react";
 function Contact() {
-  const [hovered, setHovered] = useState(null);
-
   return (
     <div className="container">
       <div className="card cantact-card">
-        <div
-          className="contact-div"
-          onMouseOver={() => setHovered("email")}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <button className="contact-btn">
+        <div className="contact-div">
+          <a
+            className="contact-btn"
+            href="mailto:jeyajothi108@gmil.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img src="/images/email logo.svg" className="btn-img" alt="email" />
-          </button>
-          <div className={`popup${hovered === "email" ? "show" : ""}`}>
-            <p>jeyajothi108@gmail.com</p>
-          </div>
+          </a>
+          <div className="detail-txt">jeyajothi108@gmail.com</div>
         </div>
-        <div
-          className="contact-div"
-          onMouseOver={() => setHovered("github")}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <button className="contact-btn">
+        <div className="contact-div">
+          <a
+            className="contact-btn"
+            href="https://github.com/Jeya-Jothi"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src="/images/github logo.svg"
               className="btn-img"
-              alt="email"
+              alt="github"
             />
-          </button>
-          <div className={`popup${hovered === "github" ? "show" : ""}`}>
-            Github
-          </div>
+          </a>
+          <div className="detail-txt">Github</div>
         </div>
-        <div
-          className="contact-div"
-          onMouseOver={() => setHovered("linkedin")}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <button className="contact-btn">
+        <div className="contact-div">
+          <a
+            className="contact-btn"
+            href="https://www.linkedin.com/in/jeya-jothi-841277211"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src="/images/linkedin logo.svg"
               className="btn-img"
-              alt="email"
+              alt="linkedin"
             />
-          </button>
-          <div className={`popup${hovered === "linkedin" ? "show" : ""}`}>
-            Linkedin
-          </div>
+          </a>
+          <div className="detail-txt">Linkedin</div>
         </div>
-        <div
-          className="contact-div"
-          onMouseOver={() => setHovered("portfolio")}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <button className="contact-btn portfolio-btn">
+        <div className="contact-div">
+          <a
+            className="contact-btn portfolio-btn"
+            href="https://jothi-portfolio-9utu.onrender.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src="/images/portfolio logo.svg"
               className="btn-img"
-              alt="email"
+              alt="portfolio"
             />
-          </button>
-          <div className={`popup${hovered === "portfolio" ? "show" : ""}`}>
-            Portfolio
-          </div>
+          </a>
+          <div className="detail-txt">Portfolio</div>
         </div>
       </div>
     </div>

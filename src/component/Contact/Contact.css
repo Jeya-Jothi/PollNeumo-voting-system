@@ -1,18 +1,17 @@
-* {
-  transition: 0.3s;
-}
 .cantact-card {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 20px;
 }
 .contact-div {
   display: flex;
   align-items: center;
   gap: 20px;
-  position: relative;
 }
 .contact-btn {
-  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -36,25 +35,12 @@
 .contact-btn:active {
   opacity: 0.7;
 }
-.portfolio-btn {
-  padding: 20px 13px;
-}
 .portfolio-btn img {
   width: 35px;
 }
 .btn-img {
   width: 30px;
 }
-/* Hidden state */
-.popup {
-  transform: translateY(0%) translateX(-10px);
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-/* Shown on hover */
-.popup.show {
-  pointer-events: none;
-  opacity: 1;
-  transform: translateY(-10%) translateX(-10px);
-  pointer-events: auto;
+.detail-txt {
+  font-size: 16px;
 }
