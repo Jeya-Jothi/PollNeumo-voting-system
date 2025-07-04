@@ -44,3 +44,41 @@
 .detail-txt {
   font-size: 16px;
 }
+
+/* Mobile */
+
+@media (max-width: 425px) {
+  .cantact-card {
+    gap: 15px;
+    padding: 20px 15px;
+  }
+  .contact-div {
+    gap: 15px;
+  }
+  .contact-btn {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 4px 4px 7px rgba(163, 177, 198, 0.484),
+      2px 2px 2px rgba(163, 177, 198, 0.659),
+      -1px -1px 3px rgba(255, 255, 255, 0.742),
+      -4px -4px 5px rgba(255, 255, 255, 0.368);
+  }
+  .contact-btn:hover {
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0),
+      0px 0px 0px rgba(255, 255, 255, 0), -0px -0px 0px rgba(255, 255, 255, 0),
+      -0px -0px 0px rgba(255, 255, 255, 0),
+      2px 2px 2px rgba(163, 177, 198, 0.659) inset,
+      -1px -1px 3px rgba(255, 255, 255, 0.742) inset;
+  }
+  .portfolio-btn img {
+    width: 28px;
+  }
+  .btn-img {
+    width: 25px;
+  }
+  .detail-txt {
+    font-size: 14px;
+  }
+}

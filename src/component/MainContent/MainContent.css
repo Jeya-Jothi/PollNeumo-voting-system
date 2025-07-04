@@ -126,7 +126,7 @@ input[type="radio"] {
 }
 .total {
   width: 100%;
-  height: 8px;
+  height: 10px;
   border-radius: 10px;
   background-color: #5c606339;
 }
@@ -134,4 +134,61 @@ input[type="radio"] {
   height: 100%;
   background-color: #5c606396;
   border-radius: 10px;
+}
+
+/* Mobile */
+
+@media (max-width: 425px) {
+  .container {
+    height: 80vh;
+  }
+  .card {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .card-head-txt,
+  .ques-txt {
+    font-size: 18px;
+  }
+  .ques-txt {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+  .pro-btn-div {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .pro-btn-div .poll-label {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .pro-btn-div .poll-label:hover,
+  input[type="radio"]:checked + .poll-label {
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0) inset,
+      0px 0px 0px rgba(255, 255, 255, 0) inset,
+      3px 3px 5px rgba(163, 177, 198, 0.6),
+      2px 2px 1px rgba(163, 177, 198, 0.659),
+      -1px -1px 3px rgba(255, 255, 255, 0.742),
+      -3px -3px 5px rgba(255, 255, 255, 0.641);
+  }
+  .submit-div {
+    gap: 10px;
+  }
+  .submit-div button {
+    width: 35%;
+    padding: 5px 7px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .txt-level {
+    grid-template-columns: 15% 1fr auto;
+    column-gap: 15px;
+  }
+  .txt-level p {
+    font-size: 14px;
+  }
+  .total {
+    height: 8px;
+  }
 }
