@@ -61,6 +61,9 @@ function App() {
         contactText={contactContent}
       />
       <div className={animation ? "fade-out-up" : "fade-in-up"}>{check()}</div>
+      <div className="copyright-div">
+        <p>{new Date().getFullYear()} © Jeya Jothi | All rights reserved</p>
+      </div>
     </div>
   );
 }

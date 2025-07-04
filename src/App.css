@@ -17,3 +17,10 @@ button {
 button {
   cursor: pointer;
 }
+
+.copyright-div {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: #5c606350;
+}
