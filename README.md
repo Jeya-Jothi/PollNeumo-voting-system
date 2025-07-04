@@ -27,8 +27,6 @@
 - Handles 0-vote scenarios (prevents division by zero)
 - Uses DOM manipulation to update results without reload
 
----
-
 ## Local Setup
 
 No backend setup needed. To run locally:
@@ -39,14 +37,13 @@ cd pollneumo
 npm start
 ```
 
-## Author
-
-Jeya Jothi
-Web Developer | UI/UX Enthusiast | Learner by Building
-
----
-
 ## Contact
 
 - Email: jeyajothi108@gmail.com
 - LinkedIn: https://www.linkedin.com/in/jeya-jothi-841277211
+
+## Author
+
+Jeya Jothi | Web Developer | UI/UX Enthusiast | Learner by Building
+
+---
