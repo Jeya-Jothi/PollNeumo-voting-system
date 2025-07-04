@@ -140,7 +140,7 @@ input[type="radio"] {
 
 @media (max-width: 425px) {
   .container {
-    height: 80vh;
+    height: 70vh;
   }
   .card {
     padding: 10px 20px;

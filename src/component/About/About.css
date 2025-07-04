@@ -4,10 +4,15 @@
   padding: 20px 40px;
 }
 .feature-div {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
+  margin: 20px 0px;
 }
-.feature-div p {
+.feature-div div {
+  text-align: center;
   font-size: 16px;
   padding: 10px;
   border-radius: 10px;
@@ -34,11 +39,7 @@
     font-size: 15px;
   }
   .feature-div {
-    display: grid;
     grid-template-columns: auto auto;
-    gap: 0px;
-    align-items: start;
-    column-gap: 10px;
   }
 }
 
@@ -47,10 +48,7 @@
     font-size: 14px;
   }
   .feature-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-    column-gap: 10px;
+    grid-template-columns: auto auto;
   }
   .feature-div p {
     font-size: 14px;
