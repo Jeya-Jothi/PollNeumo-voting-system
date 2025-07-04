@@ -63,7 +63,7 @@
   gap: 20px;
   padding-bottom: 20px;
 }
-.pro-btn-div button {
+.pro-btn-div .poll-label {
   font-size: 18px;
   background: #e0e5ec;
   border-radius: 12px;
@@ -74,7 +74,8 @@
   border: none;
   transition: box-shadow 0.3s;
 }
-.pro-btn-div button:hover {
+.pro-btn-div .poll-label:hover,
+input[type="radio"]:checked + .poll-label {
   box-shadow: 0px 0px 0px rgba(255, 255, 255, 0) inset,
     0px 0px 0px rgba(255, 255, 255, 0) inset,
     5px 5px 10px rgba(163, 177, 198, 0.6),
@@ -82,14 +83,17 @@
     -2px -2px 5px rgba(255, 255, 255, 0.742),
     -5px -5px 10px rgba(255, 255, 255, 0.641);
 }
-.pro-btn-div button:active {
+.pro-btn-div .btn:active {
   opacity: 0.7;
 }
-
+input[type="radio"] {
+  display: none;
+}
 .submit-div {
   display: flex;
   justify-content: center;
   padding-bottom: 5px;
+  gap: 20px;
 }
 .submit-div button {
   width: 40%;
@@ -99,6 +103,7 @@
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 18px;
+  margin-top: 10px;
   transition: background-color 0.3s;
 }
 .submit-div button:hover {
@@ -127,7 +132,6 @@
 }
 .level {
   height: 100%;
-  width: 50%;
   background-color: #5c606396;
   border-radius: 10px;
 }
